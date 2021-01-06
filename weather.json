@@ -1,0 +1,262 @@
+[
+  {
+    "code": "200",
+    "rating": 0.1,
+    "name": "Thunderstorm",
+    "description": "thunderstorm with light rain"
+  },
+  {
+    "code": "201",
+    "rating": 0.05,
+    "name": "Thunderstorm",
+    "description": "thunderstorm with rain"
+  },
+  {
+    "code": "202",
+    "rating": 0.01,
+    "name": "Thunderstorm",
+    "description": "thunderstorm with heavy rain"
+  },
+  {
+    "code": "210",
+    "rating": 0.15,
+    "name": "Thunderstorm",
+    "description": "light thunderstorm"
+  },
+  {
+    "code": "211",
+    "rating": 0.05,
+    "name": "Thunderstorm",
+    "description": "thunderstorm"
+  },
+  {
+    "code": "212",
+    "rating": 0.01,
+    "name": "Thunderstorm",
+    "description": "heavy thunderstorm"
+  },
+  {
+    "code": "221",
+    "rating": 0.1,
+    "name": "Thunderstorm",
+    "description": "ragged thunderstorm"
+  },
+  {
+    "code": "230",
+    "rating": 0.1,
+    "name": "Thunderstorm",
+    "description": "thunderstorm with light drizzle"
+  },
+  {
+    "code": "231",
+    "rating": 0.05,
+    "name": "Thunderstorm",
+    "description": "thunderstorm with drizzle"
+  },
+  {
+    "code": "232",
+    "rating": 0.05,
+    "name": "Thunderstorm",
+    "description": "thunderstorm with heavy drizzle"
+  },
+  {
+    "code": "300",
+    "rating": 0.5,
+    "name": "Drizzle",
+    "description": "light intensity drizzle"
+  },
+  { "code": "301", "rating": 0.4, "name": "Drizzle", "description": "drizzle" },
+  {
+    "code": "302",
+    "rating": 0.3,
+    "name": "Drizzle",
+    "description": "heavy intensity drizzle"
+  },
+  {
+    "code": "310",
+    "rating": 0.45,
+    "name": "Drizzle",
+    "description": "light intensity drizzle rain"
+  },
+  {
+    "code": "311",
+    "rating": 0.4,
+    "name": "Drizzle",
+    "description": "drizzle rain"
+  },
+  {
+    "code": "312",
+    "rating": 0.2,
+    "name": "Drizzle",
+    "description": "heavy intensity drizzle rain"
+  },
+  {
+    "code": "313",
+    "rating": 0.05,
+    "name": "Drizzle",
+    "description": "shower rain and drizzle"
+  },
+  {
+    "code": "314",
+    "rating": 0.01,
+    "name": "Drizzle",
+    "description": "heavy shower rain and drizzle"
+  },
+  {
+    "code": "321",
+    "rating": 0.05,
+    "name": "Drizzle",
+    "description": "shower drizzle"
+  },
+  { "code": "500", "rating": 0.2, "name": "Rain", "description": "light rain" },
+  {
+    "code": "501",
+    "rating": 0.2,
+    "name": "Rain",
+    "description": "moderate rain"
+  },
+  {
+    "code": "502",
+    "rating": 0.05,
+    "name": "Rain",
+    "description": "heavy intensity rain"
+  },
+  {
+    "code": "503",
+    "rating": 0.01,
+    "name": "Rain",
+    "description": "very heavy rain"
+  },
+  {
+    "code": "504",
+    "rating": 0.001,
+    "name": "Rain",
+    "description": "extreme rain"
+  },
+  {
+    "code": "511",
+    "rating": 0.001,
+    "name": "Rain",
+    "description": "freezing rain"
+  },
+  {
+    "code": "520",
+    "rating": 0.02,
+    "name": "Rain",
+    "description": "light intensity shower rain"
+  },
+  {
+    "code": "521",
+    "rating": 0.01,
+    "name": "Rain",
+    "description": "shower rain"
+  },
+  {
+    "code": "522",
+    "rating": 0.001,
+    "name": "Rain",
+    "description": "heavy intensity shower rain"
+  },
+  {
+    "code": "531",
+    "rating": 0.05,
+    "name": "Rain",
+    "description": "ragged shower rain"
+  },
+  { "code": "600", "rating": 0.9, "name": "Snow", "description": "light snow" },
+  { "code": "601", "rating": 0.8, "name": "Snow", "description": "Snow" },
+  { "code": "602", "rating": 0.7, "name": "Snow", "description": "Heavy snow" },
+  { "code": "611", "rating": 0.3, "name": "Snow", "description": "Sleet" },
+  {
+    "code": "612",
+    "rating": 0.1,
+    "name": "Snow",
+    "description": "Light shower sleet"
+  },
+  {
+    "code": "613",
+    "rating": 0.01,
+    "name": "Snow",
+    "description": "Shower sleet"
+  },
+  {
+    "code": "615",
+    "rating": 0.1,
+    "name": "Snow",
+    "description": "Light rain and snow"
+  },
+  {
+    "code": "616",
+    "rating": 0.01,
+    "name": "Snow",
+    "description": "Rain and snow"
+  },
+  {
+    "code": "620",
+    "rating": 0.6,
+    "name": "Snow",
+    "description": "Light shower snow"
+  },
+  {
+    "code": "621",
+    "rating": 0.5,
+    "name": "Snow",
+    "description": "Shower snow"
+  },
+  {
+    "code": "622",
+    "rating": 0.4,
+    "name": "Snow",
+    "description": "Heavy shower snow"
+  },
+  { "code": "701", "rating": 0.9, "name": "Mist", "description": "mist" },
+  { "code": "711", "rating": 0.1, "name": "Smoke", "description": "Smoke" },
+  { "code": "721", "rating": 0.8, "name": "Haze", "description": "Haze" },
+  {
+    "code": "731",
+    "rating": 0.1,
+    "name": "Dust",
+    "description": "sand/ dust whirls"
+  },
+  { "code": "741", "rating": 0.8, "name": "Fog", "description": "fog" },
+  { "code": "751", "rating": 0.1, "name": "Sand", "description": "sand" },
+  { "code": "761", "rating": 0.1, "name": "Dust", "description": "dust" },
+  {
+    "code": "762",
+    "rating": 0.1,
+    "name": "Ash",
+    "description": "volcanic ash"
+  },
+  { "code": "771", "rating": 0.1, "name": "Squall", "description": "squalls" },
+  {
+    "code": "781",
+    "rating": 0.001,
+    "name": "Tornado",
+    "description": "tornado"
+  },
+  { "code": "800", "rating": 1, "name": "Clear", "description": "clear sky" },
+  {
+    "code": "801",
+    "rating": 1,
+    "name": "Clouds",
+    "description": "few clouds: 11-25%"
+  },
+  {
+    "code": "802",
+    "rating": 1,
+    "name": "Clouds",
+    "description": "scattered clouds: 25-50%"
+  },
+  {
+    "code": "803",
+    "rating": 1,
+    "name": "Clouds",
+    "description": "broken clouds: 51-84%"
+  },
+  {
+    "code": "804",
+    "rating": 0.8,
+    "name": "Clouds",
+    "description": "overcast clouds: 85-100%"
+  }
+]
