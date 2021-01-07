@@ -1,11 +1,11 @@
 from telegram.ext import Updater, CommandHandler
 from telegram import ReplyKeyboardMarkup
-
 import logging
 import choose_place
 import os
-
 import logging
+
+# prepare logging, token, helper class & bot keyboard
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
 
@@ -16,6 +16,8 @@ place_chooser = choose_place.PlaceChooser()
 keyboard = ReplyKeyboardMarkup([['/start']], True)
 
 
+# init bot
+# nothing special, just 1 handler for 1 command we have
 def main():
 
     updater = Updater(token=BOT_TOKEN, use_context=True)
@@ -32,5 +34,8 @@ def main():
     updater.start_polling()
 
 
+# PULL IT UP CAPTAIN
+# NRRRRNG
+# TO THE MOON!
 if __name__ == '__main__':
     main()
