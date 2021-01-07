@@ -2,6 +2,7 @@ import json
 import os
 import random
 import requests
+from helpers import get_declinated_minute_word
 
 
 class PlaceChooser:
@@ -66,7 +67,8 @@ class PlaceChooser:
     def get_full_info(self):
         weather = self._get_current_weather()
         place = self.get_random_place(weather)
-        return f"Сейчас на улице {weather['weather'][0]['description']}. \n Температура по ощущениям: {weather['main']['feels_like']}С. \n Предлагаю сходить в {place['name']}. \n Идти примерно {round(place['distance'] / 80)} минут."
+        walking_minutes = round(place['distance'] / 80)
+        return f"Сейчас на улице {weather['weather'][0]['description']}. \nТемпература по ощущениям: {weather['main']['feels_like']}С. \nПредлагаю сходить в {place['name']}. \nИдти примерно {walking_minutes} {get_declinated_minute_word(walking_minutes)}."
 
 
 # for testing

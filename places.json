@@ -1,5 +1,5 @@
 [
-  { "name": "Столовая", "distance": 50 },
+  { "name": "нашу столовую", "distance": 50 },
   { "name": "Капоне", "distance": 150 },
   { "name": "Брюгге", "distance": 650 },
   { "name": "Пороселло", "distance": 730 },
@@ -10,7 +10,7 @@
   { "name": "Донер Хаус", "distance": 920 },
   { "name": "О'Хара", "distance": 920 },
   {
-    "name": "Гастроферма",
+    "name": "Гастроферму",
     "distance": 1300,
     "options": [
       "Ngon - вьетнамская кухня",
